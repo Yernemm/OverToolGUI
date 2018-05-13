@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OverTool GUI", "OverTool GUI\OverTool GUI.vbproj", "{EA475D16-5509-44AE-9814-872EC932600C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA475D16-5509-44AE-9814-872EC932600C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA475D16-5509-44AE-9814-872EC932600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA475D16-5509-44AE-9814-872EC932600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA475D16-5509-44AE-9814-872EC932600C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://yernemm.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OverTool\u0020GUI\\OverTool\u0020GUI.vbproj
+		SccProjectName1 = OverTool\u0020GUI
+		SccLocalPath1 = OverTool\u0020GUI
+	EndGlobalSection
+EndGlobal

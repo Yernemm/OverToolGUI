@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>=======================================================
+---General Info---
+=======================================================
+There are some symbols throughout the GUI:
+
+&lt;O&gt;   -   This means that an output path is required. This is defaulted to a folder called "output" in the same location as the overtool GUI.
+
+*   -   This means that the command has additional optional arguments which can be typed out in the "additional arguments" box. These are listed below.
+
+GUI status is shown to the top-right. If it says "Ready.", then the GUI is not doing anything. If it says "Working...", then OverTool or the GUI are doing something and should not be interrupted.
+
+=======================================================
+---Troubleshooting---
+=======================================================
+
+MOST ERRORS ARE CAUSED BY OVERTOOL ITSELF, NOT THE GUI.
+
+Here are some common steps you can take if you are having problems with OverTool:
+
+1)Google search for "Facepunch Overwatch Model Thread v1" and make sure you have the latest version of OverTool posted there for either live or the PTR. If your version of Overwatch is new or you are using version 14.* or higher then it is possible that OverTool is not compatible yet. Check the thread in a few days to see if OverTool is up to date with Overwatch.
+
+2)Run one of the "list" commands first. If they work but extract commands don't work, then your output path, flags or additional arguments may be invalid.
+
+3)Switch between "Word" and "Letter" command types and try agaom/
+
+=======================================================
+---Listing Commands---
+=======================================================
+"List..." buttons send commands which generally require no additional arguments. They can be simply clicked and the output will be displayed in the command window.
+
+Arguments:
+
+-Textures: model IDs
+
+=======================================================
+---Extracting Commands---
+=======================================================
+These commands extract files from the game into a folder. These all need a path to an output folder. By default, this is set to a folder called "output" in the same location as OverToolGUI.exe
+
+Arguments:
+
+-Hero Cosmetics: [types [query]]
+-Weapon Skins: [query]
+-Map Audio: [query}
+-Maps: [maps]
+-NPC: [names]
+-NPC Voice: [query]
+-Hero Voice: [hero query]
+
+=======================================================
+---Flags---
+=======================================================
+These alter the functionality of some commands. Use the "Display OverTool Info" button to view possible flags.
+
+=======================================================
+---Convert .wem to .ogg---
+=======================================================
+Use this to convert a folder of .wem files to .ogg files. You cannot easily listen to .wem files so .ogg files are much more useful sound files. This also supports subfolders.
+
+=======================================================
+---Convert .dds to .png---
+=======================================================
+Use this to convert a folder of .dds files to .png files. It is easier to access and edit .png files than .dds files. This also supports subfolders and you can optionally delete all leftover .dds files whilst keeping the .png files.
+
+=======================================================
+---Custom Command---
+=======================================================
+This can be used if you want to use a command that is not listed by the GUI. There are two ways of using the custom command:
+
+---------------
+Run as mode:
+
+This is the easiest way.
+The GUI will treat it as a mode and will run this command:
+
+OverTool.exe -L=[CHOSEN LANGUAGE] [OPTIONAL FLAGS] [OVERWATCH PATH] [CUSTOM COMMAND]
+
+---------------
+Run as OverTool.exe command:
+
+This is more versatile but requires more writing. You have to add the game path and language yourself.
+The GUI will just send whatever is in the custom command box to OverTool, like this:
+
+OverTool.exe [CUSTOM COMMAND]
+
+=======================================================
+---8: Command Type---
+=======================================================
+Different versions of OverTool use different command structures. The newer versions usually use command words but there are some versions out there which still use command letters. Generally, you should be able to leave this option set to "Word" but if the commands are not working, then you can set it to "Letter" and try again.
+
+Here are some examples of the difference:
+
+Extract NPC Voice
+Word command: npc-voice
+Letter command: v
+
+Extract Hero Voice
+Word command: voice
+Letter command: V
+
+List Lootboxes
+Word command: list-lootbox
+Letter command: l
+
+Extract Lootboxes
+Word command: lootbox
+Letter command: L</value>
+  </data>
+</root>
